@@ -60,6 +60,7 @@ div h3{
 .display div p{
     margin: 2rem;
     font-size: 1rem;
+    width: 100%;
     font-weight:bold;
     text-transform: capitalize;
 }
