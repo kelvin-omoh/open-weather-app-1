@@ -29,6 +29,7 @@ input[type ="text"]{
 input[type="submit"]{
     height: 50px;
     width: 100px;
+    color: black;
     background-color: #e7e7e7;
     font-family:  sans-serif;
     font-weight: bold;
@@ -41,7 +42,7 @@ input[type="submit"]{
 
 .display {
     display: flex;
-    /* width: 100vw; */
+    width: 100vw;
     align-items: center;
     /* justify-content: center; */
     
