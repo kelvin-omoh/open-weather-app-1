@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input{
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+
+input[type ="text"]{
+    height: 50px;
+    width: 600px;
+    background-color: #e7e7e7;
+    font-family:  sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: .3rem;
+    padding: 10px 10px;
+
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background-color: #e7e7e7;
+    font-family:  sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: .3rem;
+    margin: 1rem 0 0 0;
+
+}
+
+.display {
+    display: flex;
+    /* width: 100vw; */
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+
+.display div{
+    padding: 2rem;
+    /* border: 1rem solid; */
+}
+
+div h3{
+    text-decoration: underline;
+}
+
+.display div p{
+    margin: 2rem;
+    font-size: 1rem;
+    font-weight:bold;
+    text-transform: capitalize;
+}
+
+.logo{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 3rem;
+    text-decoration:underline;
+}
